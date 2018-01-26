@@ -18,7 +18,7 @@ scratch3ify.save();
 }
 };
 if(location.host = "scratch.mit.edu" && location.pathname.startsWith("/projects/")){
-
+scratch3ify.open();
 }else{
 if(scratch3ify.data.noscratch){
 scratch3ify.open(true)
